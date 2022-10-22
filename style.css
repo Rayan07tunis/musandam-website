@@ -1,0 +1,185 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* navigation bar */
+
+nav{
+    font-size: 1.15cm;
+    text-align: center; 
+}
+
+nav > ul > li{
+    display: inline-block;
+    zoom: 1;
+    *display:inline;
+    padding: 0.5cm;
+}
+nav > ul > li > a{
+    text-decoration:none;
+    color: black;
+}
+
+nav > ul > li > a:hover{
+    color: red;
+}
+
+/* heading font size */
+
+h1{
+    font-size: 1cm;
+}
+h2{
+    font-size: 0.85cm;
+}
+
+.list_two li{
+    font-size: 0.65cm;
+    margin: 1cm;
+}
+
+p{
+    font-size: 0.65cm;
+}
+
+th {
+    font-size: 0.65cm;
+}
+
+/* photos in index */
+
+body {
+	background-color: #f8fafc;
+}
+
+.container {
+	padding: 2rem;
+}
+
+.slider-wrapper {
+	position: relative;
+	max-width: 48rem;
+	margin: 0 auto;
+}
+
+.slider {
+	display: flex;
+	aspect-ratio: 16 / 9;
+	overflow-x: hidden;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+	border-radius: 0.5rem;
+}
+
+.slider img {
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+}
+
+.slider-nav {
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.slider-nav a {
+	width: 0.85rem;
+	height: 0.85rem;
+	border-radius: 50%;
+	background-color: rgb(255, 0, 0);
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+	opacity: 1;
+}
+
+.number {
+    font-weight: bold;
+    color: red;
+}
+
+.span_title {
+    font-weight: bold;
+    color: rgb(27, 91, 165);
+    text-decoration: underline;
+}
+
+#table_1 {
+    width: 30cm;
+    height: 6cm;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table_title {
+    background-color: #4472C4;
+    color:white;
+}
+
+.tt {
+    padding: 0.25cm;
+}
+
+.table_one, .table_three {
+    background-color: #CDD4EA;
+}
+
+.table_two, .table_four {
+    background-color: #E8EBF5;
+}
+
+.to, .tat, .tath {
+    font-style: italic;
+    padding: 1cm;
+}
+ 
+.tf {
+    padding: 1cm;
+}
+
+.table_2 {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.table_one_two {
+    background-color: #FFC000;
+}
+
+.table_two_two {
+    background-color: #FFE8CA;
+}
+tr.table_one_two > th {
+    padding: 1.5cm;
+}
+
+tr.table_two_two > th {
+    padding: 1.5cm;
+}
+
+.photos {
+    height: 5cm;
+    width: 8cm;
+}
+
+.ca {
+    text-decoration: none;
+    color: black;
+}
+
+.ca:hover {
+    color: red;
+}
+
